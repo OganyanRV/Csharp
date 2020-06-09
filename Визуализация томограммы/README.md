@@ -117,4 +117,4 @@ View – класс для визуализации томограммы
 
 ![img](Images/clip_image001.png)
 
-Ссылка на исходный код: https://github.com/OganyanRV/Csharp
+Ссылка на исходный код: [https://github.com/OganyanRV/Csharp-Second_Year/tree/master/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%BE%D0%BC%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B](Визуализация томограммы)
