@@ -15,7 +15,7 @@
 + «Сохранить» - сохранить измененное изображение
 + Прямоугольная шкала внизу в центре экрана, показывающая прогресса обработки изображения
 + Кнопка «отмена» для отката изображения в предыдущее состояние
- ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+ ![img](Images\clip_image002.jpg)
 ### Фильтры
 В программе реализованы следующие фильтры:
 
@@ -46,11 +46,11 @@
 В программе также реализованы возможности:
 1. Сохранять изображения [Смотреть в примерах использования]
 2. Возможность изменения размера окна, при которой элементы будут перемещаться или растягиваться пропорционально изменению размера окна
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![img](Images\clip_image004.jpg)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+![img](Images\clip_image006.jpg)
 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![img](Images\clip_image008.jpg)
 
 3. Отмена последнего изменения ( смотреть в примерах работы программы)
 Что касается структуры программы, за основу берем родительский класс Filter, от которого наследуем классы точечных фильтров ( например фильтры 1-4). Матричные фильтры мы также наследуем от Filter, а потом каждый матричный фильтр наследуем от MatrixFilter ( например 5,6). Аналогично для фильтров с ядрами по разным осям ( DoubleMatrix) ( например 7).  Операции математической морфологии также сначала наследуются от Filter в свой класс MathMorphology, от которого наследуются классы для каждой операции (18-21).
@@ -58,92 +58,117 @@
 ### Работа программы в примерах:
 
 1. Для начала загрузим изображение:
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg) 
+![img](Images\clip_image010.jpg)
+![img](Images\clip_image012.jpg) 
 
 2. Инверсия
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
+![img](Images\clip_image014.jpg)
 
-**Нажмем на «отмена изменений», чтобы вернуть изображение в предыдущее состояние :****![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image015.jpg)
+**Нажмем на «отмена изменений», чтобы вернуть изображение в предыдущее состояние :****![img](Images\clip_image015.jpg)
 
 3. Оттенок серого
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
+![img](Images\clip_image017.jpg)
 
 4. Сепия
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg)
+![img](Images\clip_image019.jpg)
 
 5. Увеличение яркости
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg)
+![img](Images\clip_image021.jpg)
 
 6. Размытие
 **Наше первоначальное изображение:**
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image023.jpg) 
+![img](Images\clip_image023.jpg) 
 
-**После размытия:**![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image025.jpg)
+**После размытия:**
+
+![img](Images\clip_image025.jpg)
 
 7. Фильтр Гаусса
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image027.jpg)
+![img](Images\clip_image027.jpg)
 
 8. Фильтр Собеля
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image029.jpg) 
+![img](Images\clip_image029.jpg) 
 
 9. Фильтр резкости
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image031.jpg)
+![img](Images\clip_image031.jpg)
 
 10. Медианный фильтр
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image032.jpg)
+    ![img](Images\clip_image032.jpg)
+
+    
 
 11. Motion Blur
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image033.jpg)
+    ![img](Images\clip_image033.jpg)
+
+    
 
 12. Горизонтальные волны
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image034.jpg)
+    ![img](Images\/clip_image034.jpg)
+
+    
 
 13. Вертикальные волны
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image035.jpg)
+    ![img](Images\clip_image035.jpg)
+
+    
 
 14. Стекло
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image036.jpg)
+    ![img](Images\clip_image036.jpg)
 
-15.Линейное растяжение
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image037.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image038.jpg)
+    
+
+15. Линейное растяжение
+    ![img](Images\clip_image038.jpg)
+
+    
 
 16.Серый мир
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image039.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image040.jpg) 
+![img](Images\clip_image040.jpg)
+
+ 
 
 17. Расширение (матморфология)
-**Программа предоставляет выбор маски. При выборе неправильной маски появляется сообщение с ошибкой** ![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image042.jpg)
+**Программа предоставляет выбор маски. При выборе неправильной маски появляется сообщение с ошибкой** ![img](Images\clip_image042.jpg)
 
 #### Пример расширения
-**Исходное изображение:**![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image044.jpg)
+**Исходное изображение:**![img](Images\clip_image044.jpg)
 
 **Маска (в документе она увеличенная):** 
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image046.png)
+![img](Images\clip_image046.png)
+
+
 
 **Результат:**
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image048.jpg) 
+![img](Images\clip_image048.jpg)
+
+ 
 
 18. Сужение (матморфология)
 #### Пример сужения
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image050.jpg)
+![img](Images\clip_image050.jpg)
 
 19.Открытие (матморфология)
 #### Пример открытия
 **Исходное:**
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image051.jpg)
+![img](Images\clip_image051.jpg)
+
+
 
 **Результат:**
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image053.jpg) 
+![img](Images\clip_image053.jpg) 
 
 20. Замыкание (матморфология)
 #### Пример замыкания
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image055.jpg)
+![img](Images\clip_image055.jpg)
 
 21. Top hat (матморфология)
 #### Пример Tophat
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image057.jpg)
+![img](Images\clip_image057.jpg)
+
 **Сохраним наше изображение.**
-![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image059.jpg)![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image061.jpg) 
+![img](Images\clip_image059.jpg)
+
+![img](Images\clip_image061.jpg) 
 
 ## Заключение
 В программе реализованы фильтры из методички, а также:
@@ -159,5 +184,6 @@
 10. Отмена последнего действия
 
 ## Приложение
-**![img](file:///C:/Users/OgRob/AppData/Local/Temp/msohtmlclip1/01/clip_image062.jpg)**
+**![img](Images\clip_image062.jpg)
+
 Ссылка на гитхаб: https://github.com/OganyanRV/Csharp-Second_Year
