@@ -90,10 +90,14 @@
 ![img](Images\clip_image029.jpg) 
 
 9. Фильтр резкости
-![img](Images\clip_image031.jpg)
+  ![img](Images\clip_image031.jpg)
+
+  
 
 10. Медианный фильтр
-    ![img](Images\clip_image032.jpg)
+    ![img2](Images\clip_image032.jpg)
+
+    
 
     
 
